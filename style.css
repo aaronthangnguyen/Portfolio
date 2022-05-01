@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #f8f9fa;
+  width: 100%;
+  height: 100%;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  color: #212529;
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 720px;
+  margin: 24px auto;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+#name {
+  margin: 48px 0 32px;
+}
+
+h2 {
+  font-weight: 500;
+  margin: 32px 0 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #212529;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+main {
+  padding: 0 20px 0 20px;
+}
+
+nav {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 12px;
+}
+
+#introduction p {
+  line-height: 1.5rem;
+  margin: 12px 0;
+}
+
+#contact {
+  border: 2px solid #ced4da;
+  padding: 12px 12px;
+  margin: 24px 0;
+  display: flex;
+  justify-content: center;
+}
+
+#contact p a {
+  color: #6c757d;
+}
+
+#companies {
+  display: flex;
+  gap: 32px;
+}
