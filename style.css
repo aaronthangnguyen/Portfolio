@@ -79,3 +79,23 @@ nav ul {
   display: flex;
   gap: 32px;
 }
+
+.highlight-green {
+  transition: 0.2s; /* Animation */
+}
+
+.highlight-green:hover {
+  padding: 2px;
+  background-color: #8eba3a;
+  color: #fefefe;
+}
+
+.highlight-blue {
+  transition: 0.2s; /* Animation */
+}
+
+.highlight-blue:hover {
+  padding: 2px;
+  background-color: #173376;
+  color: #fefefe;
+}
