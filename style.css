@@ -19,33 +19,7 @@ body {
   margin: 24px auto;
 }
 
-h1 {
-  font-weight: 500;
-}
-
-#name {
-  margin: 48px 0 32px;
-}
-
-h2 {
-  font-weight: 500;
-  margin: 32px 0 12px;
-}
-
-a {
-  text-decoration: none;
-  color: #212529;
-}
-
-a:hover {
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
-
-main {
-  padding: 0 20px 0 20px;
-}
-
+/* Elements */
 nav {
   padding: 0 20px;
   display: flex;
@@ -58,26 +32,52 @@ nav ul {
   gap: 12px;
 }
 
+main {
+  padding: 0 20px 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #212529;
+  position: relative;
+}
+
+a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 1.5px;
+  bottom: -2px;
+  left: 0;
+  background-color: #212529;
+  transform: scaleX(0);
+  transform-origin: top left;
+  transition: transform 0.2s ease;
+}
+
+a:hover::before {
+  transform: scaleX(1);
+}
+
+h1 {
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: 500;
+  margin: 32px 0 12px;
+}
+
+/* Name */
+#name {
+  margin: 48px 0 32px;
+}
+
+/* Introduction */
 #introduction p {
   line-height: 1.5rem;
   margin: 12px 0;
-}
-
-#contact {
-  border: 2px solid #ced4da;
-  padding: 12px 12px;
-  margin: 24px 0;
-  display: flex;
-  justify-content: center;
-}
-
-#contact p a {
-  color: #6c757d;
-}
-
-#companies {
-  display: flex;
-  gap: 32px;
 }
 
 .highlight-green {
@@ -98,4 +98,27 @@ nav ul {
   padding: 2px;
   background-color: #173376;
   color: #fefefe;
+}
+
+/* Contact */
+#contact {
+  border: 2px solid #ced4da;
+  padding: 12px 12px;
+  margin: 24px 0;
+  display: flex;
+  justify-content: center;
+}
+
+#contact p a {
+  color: #6c757d;
+}
+
+#contact p a::before {
+  background-color: #6c757d;
+}
+
+/* Experience */
+#companies {
+  display: flex;
+  gap: 32px;
 }
