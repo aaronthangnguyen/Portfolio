@@ -81,7 +81,7 @@ nav ul {
 }
 
 .highlight-green {
-  transition: 0.2s; /* Animation */
+  transition: 0.2s;
 }
 
 .highlight-green:hover {
@@ -91,7 +91,7 @@ nav ul {
 }
 
 .highlight-blue {
-  transition: 0.2s; /* Animation */
+  transition: 0.2s;
 }
 
 .highlight-blue:hover {
