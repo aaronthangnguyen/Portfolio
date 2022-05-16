@@ -39,25 +39,12 @@ main {
 a {
   text-decoration: none;
   color: #212529;
-  position: relative;
+  transition: 0.1s;
+  border-bottom: 2px solid transparent;
 }
 
-a::before {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 1.5px;
-  bottom: -2px;
-  left: 0;
-  background-color: #212529;
-  transform: scaleX(0);
-  transform-origin: top left;
-  transition: transform 0.2s ease;
-}
-
-a:hover::before {
-  transform: scaleX(1);
+a:hover {
+  border-color: initial;
 }
 
 h1 {
@@ -81,21 +68,21 @@ h2 {
 }
 
 .highlight-green {
-  transition: 0.2s;
+  padding: 1px;
+  transition: 0.1s;
 }
 
 .highlight-green:hover {
-  padding: 2px;
   background-color: #8eba3a;
   color: #fefefe;
 }
 
 .highlight-blue {
-  transition: 0.2s;
+  padding: 1px;
+  transition: 0.1s;
 }
 
 .highlight-blue:hover {
-  padding: 2px;
   background-color: #173376;
   color: #fefefe;
 }
