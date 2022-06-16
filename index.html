@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aaron Nguyen</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,7 +12,7 @@
     />
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <link rel="stylesheet" href="style.css" />
-    <title>Aaron Nguyen</title>
+    <script src="script.js" defer></script>
   </head>
 
   <body>
@@ -20,10 +20,10 @@
       <div><span id="daytime">sun, 4:04 am</span>, orlando 🏖</div>
 
       <ul>
-        <li><a href="#">home</a></li>
-        <li><a href="#">about</a></li>
-        <li><a href="#">resume</a></li>
-        <li><a href="#">feedback</a></li>
+        <li><a href="#" class="highlight gray">home</a></li>
+        <li><a href="#" class="highlight gray">about</a></li>
+        <li><a href="assets/aaronnguyen-resume.pdf" class="highlight gray">resume</a></li>
+        <li><a href="#" class="highlight gray">feedback</a></li>
       </ul>
     </nav>
     <main>
@@ -31,28 +31,37 @@
       <div id="introduction">
         <h2>Hello! 👋</h2>
         <p>
-          I'm a junior studying Computer Science 💻 at University of Central
-          Florida. I'm interested in software engineering and distributed
-          systems.
+          I'm a junior studying Computer Science 💻 at
+          <span class="highlight semibold yellow"
+            >University of Central Florida</span
+          >. I'm interested in software engineering and distributed systems.
         </p>
         <p>
           This summer, I will be a Research Intern in Quantum Programming at
-          <span class="highlight-green">Microsoft</span> 🌱 in Redmond, WA!
+          <span class="highlight semibold green">Microsoft</span> 🌱 in Redmond,
+          WA!
         </p>
         <p>
           Last spring, I was a Software Engineering Intern at
-          <span class="highlight-blue">NASA</span> 🚀 in Huntsville, AL.
+          <span class="highlight semibold blue">NASA</span> 🚀 in Huntsville,
+          AL.
         </p>
       </div>
 
       <div id="contact">
         <p>
-          Feel free to reach out to me via&nbsp;<a
+          Feel free to reach out to me via
+          <a
             href="https://discord.com/users/756319376453533726"
+            class="highlight gray"
             >Discord</a
-          >,&nbsp;
-          <a href="https://www.linkedin.com/in/aaronthangnguyen">Linkedin</a>,
-          or&nbsp; <a href="mailto:me@aaronnguyen.dev">email</a>.
+          >,
+          <a
+            href="https://www.linkedin.com/in/aaronthangnguyen"
+            class="highlight gray"
+            >Linkedin</a
+          >, or
+          <a href="mailto:me@aaronnguyen.dev" class="highlight gray">email</a>.
         </p>
       </div>
 
@@ -64,6 +73,5 @@
         </div>
       </div>
     </main>
-    <script src="script.js"></script>
   </body>
 </html>

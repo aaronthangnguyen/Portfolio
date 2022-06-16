@@ -38,13 +38,6 @@ main {
 
 a {
   text-decoration: none;
-  color: #212529;
-  transition: 0.1s;
-  border-bottom: 2px solid transparent;
-}
-
-a:hover {
-  border-color: initial;
 }
 
 h1 {
@@ -67,24 +60,30 @@ h2 {
   margin: 12px 0;
 }
 
-.highlight-green {
-  padding: 1px;
+.highlight {
+  cursor: pointer;
   transition: 0.1s;
+  border-bottom: 1.5px solid transparent;
 }
 
-.highlight-green:hover {
-  background-color: #8eba3a;
-  color: #fefefe;
+.highlight:hover {
+  border-color: initial;
 }
 
-.highlight-blue {
-  padding: 1px;
-  transition: 0.1s;
+.green {
+  color: #239b56;
 }
 
-.highlight-blue:hover {
-  background-color: #173376;
-  color: #fefefe;
+.blue {
+  color: #173376;
+}
+
+.yellow {
+  color: #f39c12;
+}
+
+.gray {
+  color: #212529;
 }
 
 /* Contact */
@@ -94,10 +93,6 @@ h2 {
   margin: 24px 0;
   display: flex;
   justify-content: center;
-}
-
-#contact p a {
-  color: #6c757d;
 }
 
 #contact p a::before {
