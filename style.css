@@ -69,15 +69,23 @@ h2 {
   border-color: initial;
 }
 
-.green {
+.semibold {
+  font-weight: 500;
+}
+
+.linkedin {
+  color: #0072b1;
+}
+
+.microsoft {
   color: #239b56;
 }
 
-.blue {
+.nasa {
   color: #173376;
 }
 
-.yellow {
+.ucf {
   color: #f39c12;
 }
 
