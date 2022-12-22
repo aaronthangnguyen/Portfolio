@@ -1,7 +1,4 @@
 (() => {
-  console.log("Hello World!");
-
-  // Time
   setTimeNow();
   setInterval(setTimeNow, 60 * 1000);
 })();
