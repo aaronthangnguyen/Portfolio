@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+@media (max-width: 768px) {
+  #daytime-div {
+    display: none;
+  }
+}
+
 html {
   background-color: #fefefe;
   width: 100%;
@@ -60,6 +66,7 @@ h2 {
 }
 
 .highlight {
+  font-weight: 500;
   cursor: pointer;
   transition: 0.1s;
   border-bottom: 1.5px solid transparent;
@@ -67,10 +74,6 @@ h2 {
 
 .highlight:hover {
   border-color: initial;
-}
-
-.semibold {
-  font-weight: 500;
 }
 
 .linkedin {
@@ -85,8 +88,8 @@ h2 {
   color: #173376;
 }
 
-.ucf {
-  color: #f39c12;
+.fiu {
+  color: #b6862c;
 }
 
 .gray {
