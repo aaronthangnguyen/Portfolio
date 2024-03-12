@@ -15,7 +15,7 @@
 I'm a senior studying Computer Science 💻 at [Florida International University 🐆](https://www.fiu.edu/). I'm interested in software engineering and distributed systems.
 
 
-This summer, I'm working as a Software Engineer Intern at <img src="/assets/linkedin.svg" alt="LinkedIn" style="height:1em; width:auto; vertical-align:top;"> **LinkedIn** in Sunnyvale, CA!
+This summer, I'm working as a Software Engineer Intern at <img src="/assets/linkedin.svg" alt="LinkedIn" style="height:1em; width:auto; vertical-align:middle;"> **LinkedIn** in Sunnyvale, CA!
 
 Last summer, I was a Research Intern in Quantum Programming at [Microsoft 🌱](https://microsoft.com/) in Redmond, WA!
 
