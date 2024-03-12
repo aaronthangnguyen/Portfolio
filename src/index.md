@@ -12,10 +12,10 @@
 
 ## Hello! 👋
 
-I'm a senior studying Computer Science 💻 at Florida International University. I'm interested in software engineering and distributed systems.
+I'm a senior studying Computer Science 💻 at [Florida International University 🐆](https://www.fiu.edu/). I'm interested in software engineering and distributed systems.
 
 
-This summer, I'm working as a Software Engineer Intern at [](https://www.linkedin.com/) in Sunnyvale, CA!
+This summer, I'm working as a Software Engineer Intern at [LinkedIn 🪁](https://www.linkedin.com/) in Sunnyvale, CA!
 
 Last summer, I was a Research Intern in Quantum Programming at [Microsoft 🌱](https://microsoft.com/) in Redmond, WA!
 
