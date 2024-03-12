@@ -17,8 +17,8 @@ I'm a senior studying Computer Science 💻 at [Florida International University
 
 This summer, I'm working as a Software Engineer Intern at **LinkedIn** <img src="/assets/linkedin.svg" alt="LinkedIn" style="height:1em; width:auto; vertical-align:middle;"> in Sunnyvale, CA!
 
-Last summer, I was a Research Intern in Quantum Programming at **Microsoft**<img src="/assets/microsoft.svg" alt="Microsoft" style="height:1em; width:auto; vertical-align:middle;"> in Redmond, WA!
+Last summer, I was a Research Intern in Quantum Programming at **Microsoft** <img src="/assets/microsoft.svg" alt="Microsoft" style="height:1em; width:auto; vertical-align:middle;"> in Redmond, WA!
 
-The spring before, I was a Software Engineer Intern at **NASA** <img src="/assets/microsoft.svg" alt="Microsoft" style="height:1em; width:auto; vertical-align:middle;"> in Huntsville, AL.
+The spring before, I was a Software Engineer Intern at **NASA** <img src="/assets/nasa.svg" alt="NASA" style="height:1em; width:auto; vertical-align:middle;"> in Huntsville, AL.
 
 > Feel free to reach out to me via [Discord](https://discord.com/users/756319376453533726), [LinkedIn](https://www.linkedin.com/in/aaronthangnguyen), or [email](mailto:me@aaronnguyen.dev).
