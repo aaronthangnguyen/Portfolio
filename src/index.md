@@ -17,7 +17,7 @@ I'm a senior studying Computer Science 💻 at [Florida International University
 
 This summer, I'm working as a Software Engineer Intern at 
 <a href="https://www.linkedin.com/">
-  LinkedIn <img src="/assets/linkedin.svg" alt="LinkedIn" style="height:1em; width:auto; vertical-align:middle;">
+  LinkedIn <img src="/assets/linkedin.svg" alt="LinkedIn" style="height:1em; width:auto; vertical-align:top;">
 </a> in Sunnyvale, CA!
 
 Last summer, I was a Research Intern in Quantum Programming at [Microsoft 🌱](https://microsoft.com/) in Redmond, WA!
