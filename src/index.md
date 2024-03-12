@@ -2,7 +2,7 @@
   <p align="right">
     <a href="/">Home</a>
     &nbsp;
-    <a href="assets/aaronnguyen-resume.pdf">Resume</a>
+    <a href="/assets/aaronnguyen-resume.pdf">Resume</a>
     &nbsp;
     <a href="mailto:me@aaronnguyen.dev">Feedback</a>
   </p>
